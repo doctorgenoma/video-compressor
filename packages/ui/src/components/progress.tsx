@@ -1,0 +1,1 @@
+export function Progress({ value }: { value: number }) { return <div style={{width:'100%',height:10,background:'#1f2937',borderRadius:999,overflow:'hidden',marginTop:12}}><div style={{width:`${Math.min(100, Math.max(0, value))}%`,height:'100%',background:'#22c55e'}} /></div>; }
